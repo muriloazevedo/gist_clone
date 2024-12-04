@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 
 /* This file is for your main application CSS */
+<<<<<<< HEAD
 @font-face {
     font-family: "WorkSans";
     src: url("/fonts/WorkSans-Regular.ttf");
@@ -81,3 +82,5 @@ form input[type="text"]:focus {
     border-color: white transparent transparent transparent;
     border-style: solid;
 }
+=======
+>>>>>>> main

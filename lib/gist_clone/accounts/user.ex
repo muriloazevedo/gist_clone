@@ -9,7 +9,10 @@ defmodule GistClone.Accounts.User do
     field :hashed_password, :string, redact: true
     field :current_password, :string, virtual: true, redact: true
     field :confirmed_at, :utc_datetime
+<<<<<<< HEAD
     has_many :gists, GistClone.Gists.Gist
+=======
+>>>>>>> main
 
     timestamps(type: :utc_datetime)
   end
